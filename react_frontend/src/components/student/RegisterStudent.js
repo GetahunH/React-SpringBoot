@@ -36,6 +36,7 @@ export default function RegisterStudent() {
     } catch (error) {
       // Log the entire error response for inspection
       console.error(error.response.data);
+      console.log("hello")
 
       // Handle general errors
       alert(error.response.data);
