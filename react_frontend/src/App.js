@@ -9,6 +9,7 @@ import SearchStudent from './components/student/SearchStudent';
 import Navigation from './components/profile/Navigation';
 
 const App = () => {
+  //selamat
   return (
     <div className="App">
       <Router>
